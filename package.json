@@ -1,8 +1,5 @@
 {
   "name": "jest-debug",
-  "scripts": {
-    "test": "jest -- ./test.js"
-  },
   "description": "Debugging Jest error render",
   "dependencies": {
     "jest-cli": "^29.6.1",

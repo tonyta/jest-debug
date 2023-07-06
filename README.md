@@ -5,16 +5,12 @@ running `installGlobals();` imported from `@remix/node`.
 
 Repro command:
 ```bash
-npm test
+npx jest
 ```
 
 Expected output:
 ```
-npm test
-
-> test
-> jest -- ./test.js
-
+npx jest
  FAIL  ./test.js
   ✕ error render example (2 ms)
 
@@ -37,17 +33,13 @@ npm test
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        0.133 s, estimated 1 s
-Ran all test suites matching /.\/test.js/i.
+Time:        0.117 s, estimated 1 s
+Ran all test suites.
 ```
 
 Actual output:
 ```
-npm test
-
-> test
-> jest -- ./test.js
-
+npx jest
  FAIL  ./test.js
   ✕ error render example (2 ms)
 
@@ -71,6 +63,6 @@ npm test
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        0.148 s, estimated 1 s
-Ran all test suites matching /.\/test.js/i.
+Time:        0.147 s, estimated 1 s
+Ran all test suites.
 ```
