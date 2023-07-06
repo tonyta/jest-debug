@@ -1,4 +1,13 @@
 {
   "name": "jest-debug",
-  "description": "Debugging Jest error render"
+  "scripts": {
+    "test": "jest -- ./test.ts"
+  },
+  "description": "Debugging Jest error render",
+  "dependencies": {
+    "@remix-run/node": "^1.17.0",
+    "@types/jest": "^29.5.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1"
+  }
 }
