@@ -5,8 +5,8 @@
   },
   "description": "Debugging Jest error render",
   "dependencies": {
-    "@remix-run/node": "^1.17.0",
     "@types/jest": "^29.5.2",
+    "source-map-support": "^0.5.21",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1"
   }
