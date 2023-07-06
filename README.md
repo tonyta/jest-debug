@@ -1,7 +1,7 @@
 # Weird Jest Error Rendering
 
-When running tests, the incorrect line gets highlighted. It looks related to
-running `installGlobals();` imported from `@remix/node`.
+When running tests, the incorrect line gets highlighted.
+It looks related to `source-map-support` and its `prepareStackTrace` function.
 
 Repro command:
 ```bash
